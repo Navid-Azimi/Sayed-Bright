@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(128, 0, 128, 0.472), rgba(128, 0, 128, 0.472)), 
+    url('/img/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, textarea{
+    outline: none !important;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.intro{
+    color: white;
+}
+
+#wrapper{
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group{
+    display: block;
+    width: 100%;
+}
+
+.form-group label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.form-group p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.form-group label > span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-group input, .form-group textarea, .form-group select{
+    padding: 10px;
+    border-radius: 3px;
+    border: none !important;
+}
+
+.form-group input:focus, .form-group textarea:focus, .form-group select:focus{
+    transition: .1s all ease-in-out;
+    border: 1px solid dodgerblue !important;
+}
+#survey-form{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    padding: 20px;
+    background: rgb(41, 42, 71, 0.8);
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 0px rgb(0, 0, 0, .5);
+}
+
+.form-group{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#radio{
+    float: left !important;
+    clear: none !important;
+    display: block !important;
+    /* padding: 0px 1em 0px 8px !important; */
+}
+
+#radio input{
+    float: left !important;
+    clear: none !important;
+    display: block !important;
+    margin: 0px 1em 0px 8px !important;
+}
+.input-wrappers{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+button{
+    background:#37af65;
+    color:white;
+    margin-top:15px;
+    padding:15px;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
